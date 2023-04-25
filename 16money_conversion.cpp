@@ -16,13 +16,13 @@ int main(){
 	cout<<"Type the number of the currency you need your money converted to: 1-Dollar, 2-Euro, 3-Libra, 4-Sterline Pound \n";
 	cin>>type;
 	if (type==1) //dollar//
-		converted=real*dollar;
+		converted=real/dollar;
 	else if (type==2) //euro//
-		converted==real*euro;
+		converted==real/euro;
 	else if (type==3) //pound//
-		converted=real*pound;
+		converted=real/pound;
 	else if (type==4) //peso//
-		converted=real*peso;
+		converted=real/peso;
 	else
 		cout<<"You didn't type a correct information";
 	
